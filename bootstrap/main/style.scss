@@ -1,0 +1,30 @@
+// style.scss (Main SCSS file)
+
+@use 'color';
+@use 'font';
+@use 'layouts';
+
+// Global styles
+body {
+  background-color: colors.$background-color;
+  color: colors.$text-color;
+  font-family: fonts.$font-family;
+  font-size: fonts.$font-size-base;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: fonts.$font-size-large;
+  font-weight: fonts.$font-weight-bold;
+}
+
+.button-primary {
+  @extend .button;
+  background-color: colors.$primary-color;
+}
+
+.button-secondary {
+  @extend .button;
+  background-color: colors.$secondary-color;
+}

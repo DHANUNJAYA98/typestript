@@ -1,0 +1,12 @@
+
+$font-size: 32px;
+$counter: 1;
+
+@while $counter <= 6 {
+  h#{$counter} {
+    font-size: $font-size;
+  }
+  
+  $font-size: $font-size - 4
+  $counter: $counter + 1;
+}

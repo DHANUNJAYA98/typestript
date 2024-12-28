@@ -1,0 +1,13 @@
+// layout.scss
+
+// Layout-related styling, combining color and font classes
+.la-class {
+    @extend .co-class; // Extending color-related styles
+    @extend .fo-class;  // Extending font-related styles
+    
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #333;
+    text-align: center;
+  }
+  

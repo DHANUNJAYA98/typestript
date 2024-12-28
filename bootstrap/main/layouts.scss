@@ -1,0 +1,31 @@
+// layouts.scss
+
+$container-width: 1200px;
+$padding: 20px;
+
+.container {
+  width: $container-width;
+  margin: 0 auto;
+  padding: $padding;
+}
+
+.header {
+  background-color: $primary-color;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: $primary-color;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: $font-size-base;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: $button-hover-color;
+  }
+}

@@ -1,0 +1,17 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var exp_1 = require("./exp");
+var ex3_1 = require("./ex3");
+var ex4_1 = require("./ex4");
+var ex6_1 = require("./ex6");
+var player = new exp_1.default("virat", 35, true);
+var batsman = new ex3_1.default("rohit sharma", 36, false, 15000, 50.5);
+var bowler = new ex4_1.default("bumrah", 29, false, 320, 24.6);
+var team = new ex6_1.default();
+team.addPlayer(player);
+team.addPlayer(batsman);
+team.addPlayer(bowler);
+//console.log(player.getPlayerInfo());
+//console.log(batsman.getPlayerInfo());
+//console.log(bowler.getPlayerInfo());
+team.listPlayers();

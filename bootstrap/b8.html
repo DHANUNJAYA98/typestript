@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Table with Active Rows and Columns</title>
+  
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container my-5">
+  <h2 class="text-center mb-4">Table with Active Rows and Columns</h2>
+  
+  <table class="table table-bordered">
+    <thead class="table-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col" class="table-active">Position</th> <!-- Active Column -->
+        <th scope="col">Department</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Active Row -->
+      <tr class="table-active">
+        <th scope="row">1</th>
+        <td>John Doe</td>
+        <td>Software Engineer</td>
+        <td>Development</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jane Smith</td>
+        <td class="table-active">Project Manager</td> <!-- Active Cell -->
+        <td>Operations</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Bob Johnson</td>
+        <td>Data Analyst</td>
+        <td>Data Science</td>
+      </tr>
+      
+      <tr class="table-active">
+        <th scope="row">4</th>
+        <td>Alice Brown</td>
+        <td>UI/UX Designer</td>
+        <td>Design</td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td>Chris White</td>
+        <td>HR Specialist</td>
+        <td class="table-active">Human Resources</td> <!-- Active Cell -->
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+</body>
+</html>

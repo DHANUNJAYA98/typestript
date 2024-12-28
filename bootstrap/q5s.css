@@ -1,0 +1,30 @@
+.button-base {
+  padding: 10px;
+  border: 2px solid #3498db;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+.button-base:hover {
+  background-color: #2980b9;
+}
+
+.button-primary {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+}
+.button-primary:hover {
+  background-color: #0056b3;
+}
+
+.button-secondary {
+  background-color: #f1c40f;
+  font-style: italic;
+}
+.button-secondary:hover {
+  background-color: #f39c12;
+}/*# sourceMappingURL=q5s.css.map */
